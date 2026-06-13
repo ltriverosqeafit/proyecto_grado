@@ -1,7 +1,8 @@
-streamlit==1.45.1
-langchain-openai==1.2.2
-langgraph==1.2.4
-pydantic==2.13.3
-typing-extensions==4.15.0
-pandas==3.0.2
-plotly==6.8.0
+streamlit
+langchain-openai
+langchain-core
+langgraph
+pydantic
+typing-extensions
+pandas
+plotly
