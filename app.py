@@ -1127,7 +1127,7 @@ if enviado and texto_input.strip():
         if proy.area_total:
             partes.append(f"{proy.area_total} m²")
         partes.append(f"{len(proy.actividades_planas)} actividades")
-        respuesta = "Listo: " + " | ".join(partes)
+        respuesta = "Listo: " + " - ".join(partes)
 
         if proy.preguntas_pendientes:
             respuesta += "\n\nNecesito confirmar algunos datos:"
