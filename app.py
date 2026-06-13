@@ -18,10 +18,6 @@ st.set_page_config(
     layout="wide",
 )
 
-st.markdown(
-    "<script>document.documentElement.setAttribute('lang','es');</script>",
-    unsafe_allow_html=True,
-)
 
 class clasf_proyecto(str, Enum):
     apto = "apartamento"
